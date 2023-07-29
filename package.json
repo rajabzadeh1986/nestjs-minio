@@ -1,0 +1,45 @@
+{
+  "name": "@nimasfl/nest-minio",
+  "version": "3.0.2",
+  "description": "nest minio module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimasfl/nest-minio.git"
+  },
+  "keywords": [
+    "minio",
+    "nest",
+    "nestjs"
+  ],
+  "prepublish": "tsc",
+  "author": "Nima Soufiloo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nimasfl/nest-minio/issues"
+  },
+  "homepage": "https://github.com/nimasfl/nest-minio#readme",
+  "peerDependencies": {
+    "@nestjs/common": "^9.0.0",
+    "@nestjs/core": "^9.0.0",
+    "@nestjs/platform-express": "^9.0.0",
+    "@nestjs/swagger": "^6.0.0",
+    "@types/node": "^16.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.2.0"
+  },
+  "dependencies": {
+    "@types/minio": "^7.0.7",
+    "@types/multer": "^1.4.5",
+    "jimp": "^0.16.1",
+    "jpeg-js": "^0.4.3",
+    "minio": "^7.0.18"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
