@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rajabzadeh1986/nestjs-minio"
+    "url": "git+https://github.com/rajabzadeh1986/nestjs-minio.git"
   },
   "keywords": [
     "minio",
@@ -17,12 +17,12 @@
     "nestjs"
   ],
   "prepublish": "tsc",
-  "author": "Nima Soufiloo",
+  "author": "Mojtaba Rajabzadeh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nimasfl/nest-minio/issues"
+    "url": "https://github.com/rajabzadeh1986/nestjs-minio/issues"
   },
-  "homepage": "https://github.com/nimasfl/nest-minio#readme",
+  "homepage": "https://github.com/rajabzadeh1986/nestjs-minio#readme",
   "peerDependencies": {
     "@nestjs/common": "^9.2.0",
     "@nestjs/core": "^9.2.0",
